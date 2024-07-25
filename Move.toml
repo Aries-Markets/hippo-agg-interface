@@ -4,11 +4,9 @@ version = "0.0.0"
 
 [dependencies.AptosFramework]
 git = 'https://github.com/aptos-labs/aptos-core.git'
-rev = 'ede36dd00d7c3ba6b86a153b5ddb5da82924fc7f'
+rev = 'aptos-node-v1.16.3'
 subdir = 'aptos-move/framework/aptos-framework'
 
 
 [addresses]
-# Testnet address, just for testing! Do not use it on Mainnet!
-hippo_aggregator = "0x89576037b3cc0b89645ea393a47787bb348272c76d6941c574b053672b848039"
-
+hippo_aggregator = "0x890812a6bbe27dd59188ade3bbdbe40a544e6e104319b7ebc6617d3eb947ac07"
